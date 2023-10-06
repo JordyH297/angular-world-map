@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.map-column {
+    flex: 3; 
+    padding: 100px;
+}
+
+.info {
+    flex: 1;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-table {
+width: 100%;
+padding: 20px;
+background-color:rgb(255, 255, 255);
+border-collapse: separate;
+
+}
+
+.info-table tr td:nth-child(2n+1) {
+    font-weight: bold;
+    width: 150px;
+}
+
+.info-table tr td {
+    color: #000000;
+}
+
+caption {
+    font-size: 22px;
+    padding: 12px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
